@@ -8,10 +8,10 @@ var current_turn: int = 0
 var player_deck: Array = []
 
 func _ready():
-    # Initialize the game data
-    pass 
+	# Initialize the game data
+	pass 
 
 # Example function:
 func end_turn():
-    current_turn += 1
-    print("Starting turn: " + str(current_turn))
+	current_turn += 1
+	print("Starting turn: " + str(current_turn))

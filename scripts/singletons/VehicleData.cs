@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 // C# structs are value types, which are stored efficiently in memory.
 // This struct will hold the minimum information needed for the GPU to draw and move a unit.
 [StructLayout(LayoutKind.Sequential)]
-public struct VehicleData
+public struct VehicleData // <-- Note: This is a struct, not a class
 {
     // The position is all the GPU needs to draw the vehicle.
     public Vector2 Position; 

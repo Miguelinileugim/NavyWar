@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://dairpc4kor531"]
+
+[ext_resource type="Shader" uid="uid://b5lurjl6gx3ug" path="res://assets/textures/ShipMaterial.gdshader" id="1_4t50e"]
+[ext_resource type="Texture2D" uid="uid://clodm7q5kwfpr" path="res://assets/textures/legacy/basic-ship.png" id="2_vnawk"]
+
+[resource]
+shader = ExtResource("1_4t50e")
+shader_parameter/texture_albedo = ExtResource("2_vnawk")
